@@ -1,4 +1,4 @@
-name: Feature CiCd Development
+name: Feature Cicd Development
 
 on:
   push:
@@ -6,13 +6,13 @@ on:
       - 'feature/*'
 
 jobs:
-  Ci:
+  ci:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
 
-      - name: Run tests
-        run: echo "running on feature branch"
+      - name: runtest
+        run: echo "Running on feature branch"
 
-      - name: Deploy
-        run: echo "deploying onto the feature branch"
+      - name: deploy
+        run: echo "deploying on the feature branch"
