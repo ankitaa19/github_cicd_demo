@@ -1,4 +1,4 @@
-name: Feature CiCd Devlopment
+name: Feature CiCd Development
 
 on:
   push:
